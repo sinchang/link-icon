@@ -3,7 +3,7 @@
 
 ## DEMO
 
-[demo](https://sinchang.github.io/links-icon/demo.html)
+[demo](https://sinchang.github.io/link-icon/demo.html)
 
 ## 使用
 
