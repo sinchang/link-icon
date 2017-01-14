@@ -2,7 +2,8 @@ let iconsData = require('./icons.json');
 
 const ALI_STYLE_LINK = 'https://at.alicdn.com/t/font_con97srr0dvrhpvi.css';
 
-;(function(global, factory) {
+;
+(function(global, factory) {
     if (typeof define === 'function' && define.amd) {
         define(function() {
             return (global.LinkIcon = factory(global, global.document));
@@ -15,16 +16,19 @@ const ALI_STYLE_LINK = 'https://at.alicdn.com/t/font_con97srr0dvrhpvi.css';
 })(typeof window !== 'undefined' ? window : this, function(window, document) {
     'use strict';
 
-    function LinkIcon(element) {
-        if (!element) {
+    function LinkIcon(element, type) {
+        if (!element || !type || typeof(element) !== 'string' || typeof(type) !== 'string') {
             return;
         }
 
-        if (!element.tagName) {
+        if (type === 'id') {
+            this.els = document.querySelectorAll('#' + element + ' a');
+        } else if (type === 'class') {
+            this.els = document.querySelectorAll('.' + element + ' a');
+        } else {
             return;
         }
 
-        this.els = element.querySelectorAll('a');
         this.init();
     }
 

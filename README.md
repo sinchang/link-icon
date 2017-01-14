@@ -10,8 +10,8 @@
 ```
 <script type="text/javascript" src="./dist/links-icon.min.js"></script>
 <script type="text/javascript">
-    // element 代表所有 a 链接的最外层容器，如 `document.getElementById('body')`
-    new LinkIcon(element)
+    // name 代表链接最外层容器的 id 或者 class，type 只可选择 `class` 或者 `id`
+    new LinkIcon(name, type)
 </script>
 ```
 
