@@ -1,6 +1,6 @@
 let iconsData = require('./icons.json');
 
-const ALI_STYLE_LINK = 'https://at.alicdn.com/t/font_con97srr0dvrhpvi.css';
+const ALI_STYLE_LINK = 'https://at.alicdn.com/t/font_643juz2lj6bhuxr.css';
 
 ;
 (function(global, factory) {

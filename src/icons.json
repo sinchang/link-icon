@@ -34,7 +34,7 @@
             "source": "https://en.wikipedia.org/wiki/File:Baidu.svg"
         }, {
             "title": "Dropbox",
-            "class": "dropbox.com",
+            "class": "dropbox-com",
             "hex": "007EE5",
             "source": "https://www.dropbox.com/branding"
         }, {
@@ -44,7 +44,7 @@
             "source": "https://evernote.com/brand/color-palette/"
         }, {
             "title": "Evernote",
-            "class": "yinxiang.com",
+            "class": "yinxiang-com",
             "hex": "2DBE60",
             "source": "https://evernote.com/brand/color-palette/"
         }, {
@@ -112,7 +112,7 @@
             "source": "https://worldvectorlogo.com/logo/wechat-3"
         }, {
             "title": "Wikipedia",
-            "class": "wikipedia.org",
+            "class": "wikipedia-org",
             "hex": "000000",
             "source": "https://en.wikipedia.org/wiki/Logo_of_Wikipedia"
         }, {
@@ -123,6 +123,11 @@
         }, {
             "title": "Github",
             "class": "github-com",
+            "hex": "3E8DCC",
+            "source": "https://github.com/twolfson/coderwall-svg"
+        },{
+            "title": "Github",
+            "class": "github-io",
             "hex": "3E8DCC",
             "source": "https://github.com/twolfson/coderwall-svg"
         }, {
@@ -137,7 +142,7 @@
             "source": "https://www.tumblr.com/logo"
         }, {
             "title": "Heroku",
-            "class": "heroku.com",
+            "class": "heroku-com",
             "hex": "430098",
             "source": "https://www.heroku.com"
         }, {
